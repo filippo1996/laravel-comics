@@ -1,0 +1,24 @@
+.jumbotron{
+    width: 100%;
+    height: 320px;
+    overflow: hidden;
+    background-size: cover;
+    img{
+      width: 100%;
+    }
+  }
+  .overlay{
+    background: rgba(0,0,0, 0.5);
+    height: 100%;
+    padding: 150px 263px 0;
+  }
+  .title{
+    color: white;
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+  .sub-title{
+    color: white;
+    font-size: 1.5rem
+  }

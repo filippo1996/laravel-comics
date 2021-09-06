@@ -1,0 +1,17 @@
+header{
+    padding: 15px 0;
+}
+.logo{
+    width: 80px;
+}
+li{
+    display: inline-block;
+    margin-right: 20px;
+    a{
+        text-transform: uppercase;
+        color: $colorPrimary;
+    }
+}
+.active{
+    color: $colorSecondary;
+}

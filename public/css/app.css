@@ -1,0 +1,255 @@
+/*
+ Colors
+*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 100%;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.justify-content-around {
+  justify-content: space-around;
+}
+
+.justify-content-end {
+  justify-content: end;
+}
+
+.flex-start {
+  align-items: flex-start;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.col-auto {
+  flex-grow: 1;
+  flex-basis: 0;
+  max-width: 100%;
+}
+
+.col-1 {
+  flex-basis: calc((100% / 12) * 1);
+  max-width: calc((100% / 12) * 1);
+}
+
+.col-2 {
+  flex-basis: calc((100% / 12) * 2);
+  max-width: calc((100% / 12) * 2);
+}
+
+.col-3 {
+  flex-basis: calc((100% / 12) * 3);
+  max-width: calc((100% / 12) * 3);
+}
+
+.col-4 {
+  flex-basis: calc((100% / 12) * 4);
+  max-width: calc((100% / 12) * 4);
+}
+
+.col-5 {
+  flex-basis: calc((100% / 12) * 5);
+  max-width: calc((100% / 12) * 5);
+}
+
+.col-6 {
+  flex-basis: calc((100% / 12) * 6);
+  max-width: calc((100% / 12) * 6);
+}
+
+.col-7 {
+  flex-basis: calc((100% / 12) * 7);
+  max-width: calc((100% / 12) * 7);
+}
+
+.col-8 {
+  flex-basis: calc((100% / 12) * 8);
+  max-width: calc((100% / 12) * 8);
+}
+
+.col-9 {
+  flex-basis: calc((100% / 12) * 9);
+  max-width: calc((100% / 12) * 9);
+}
+
+.col-10 {
+  flex-basis: calc((100% / 12) * 10);
+  max-width: calc((100% / 12) * 10);
+}
+
+.col-11 {
+  flex-basis: calc((100% / 12) * 11);
+  max-width: calc((100% / 12) * 11);
+}
+
+.col-12 {
+  flex-basis: calc((100% / 12) * 12);
+  max-width: calc((100% / 12) * 12);
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.height-100 {
+  height: 100%;
+}
+
+header {
+  padding: 15px 0;
+}
+
+.logo {
+  width: 80px;
+}
+
+li {
+  display: inline-block;
+  margin-right: 20px;
+}
+li a {
+  text-transform: uppercase;
+  color: #1c1c1c;
+}
+
+.active {
+  color: #3583f1;
+}
+
+.jumbotron {
+  width: 100%;
+  height: 320px;
+  overflow: hidden;
+  background-size: cover;
+}
+.jumbotron img {
+  width: 100%;
+}
+
+.overlay {
+  background: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  padding: 150px 263px 0;
+}
+
+.title {
+  color: white;
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.sub-title {
+  color: white;
+  font-size: 1.5rem;
+}
+
+.current-series {
+  background: #1c1c1c;
+  padding: 30px 0;
+  position: relative;
+}
+
+.category {
+  display: inline-block;
+  color: white;
+  text-transform: uppercase;
+  background: #3583f1;
+  padding: 10px;
+  position: absolute;
+  top: -23px;
+}
+
+.content {
+  margin-right: 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.card {
+  height: 160px;
+  overflow: hidden;
+}
+.card img {
+  width: 100%;
+}
+
+.title {
+  color: white;
+  text-transform: uppercase;
+  margin-top: 10px;
+}
+
+footer {
+  height: 482px;
+  position: relative;
+  overflow: hidden;
+}
+
+.logo {
+  height: 482px;
+  position: absolute;
+  top: -85px;
+}
+
+.title {
+  color: white;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  font-weight: 800;
+  margin-right: 25px;
+}
+.title h4 {
+  margin-bottom: 15px;
+}
+.title .sub-title {
+  color: lightgray;
+  text-transform: none;
+  font-size: 0.9rem;
+  font-weight: 200;
+}
+
+.padding {
+  padding: 50px 0;
+}

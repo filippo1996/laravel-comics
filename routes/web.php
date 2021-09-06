@@ -14,5 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
-});
+    // Da inserire nel controller
+    $comicBooks = config('db_factory');
+    return view('home', compact('comicBooks'));
+})->name('home');

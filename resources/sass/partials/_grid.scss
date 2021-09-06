@@ -1,0 +1,14 @@
+.current-series{
+    background: $colorPrimary;
+    padding: 30px 0;
+    position: relative;
+}
+.category{
+    display: inline-block;
+    color: white;
+    text-transform: uppercase;
+    background: $colorSecondary;
+    padding: 10px;
+    position: absolute;
+    top: -23px;
+}
