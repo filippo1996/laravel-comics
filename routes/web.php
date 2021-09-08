@@ -13,8 +13,15 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+// Rotta per far funzionale la logica della web app application
+Route::get('/{any}', function () {
+    return view('home');
+})->where('any', '.*');
+
+/*
 Route::get('/', function () {
     // Da inserire nel controller
     $comicBooks = config('db_factory');
     return view('home', compact('comicBooks'));
 })->name('home');
+*/

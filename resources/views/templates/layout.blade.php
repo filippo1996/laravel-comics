@@ -8,20 +8,24 @@
     <link rel="stylesheet" href="{{ mix('css/app.css') }}">
 </head>
 <body>
-    <!-- start section header -->
-    @include('partials.header')
-    <!-- end section header -->
+    <div id="app">
+        <!-- start section header -->
+        @include('partials.header')
+        <!-- end section header -->
 
-    <!-- start section jumbotron -->
-    @include('partials.jumbotron')
-    <!-- end section jumbotron -->
+        <!-- start section jumbotron -->
+        @include('partials.jumbotron')
+        <!-- end section jumbotron -->
 
-    <!-- start section main -->
-    <main>@yield('content')</main>
-    <!-- end section main -->
+        <!-- start section main -->
+        <main>@yield('content')</main>
+        <!-- end section main -->
 
-    <!-- start section footer -->
-    <footer>@include('partials.footer')</footer>
-    <!-- end section footer -->
+        <!-- start section footer -->
+        <footer>@include('partials.footer')</footer>
+        <!-- end section footer -->
+    </div>
+
+    <script src="{{ mix('/js/app.js') }}"></script>
 </body>
 </html>

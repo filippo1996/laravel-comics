@@ -17,3 +17,15 @@ use Illuminate\Support\Facades\Route;
 Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
+
+Route::get('/comic-books', function(){
+    // Da inserire nel controller
+    return config('db_factory');
+});
+
+Route::get('/comics/{id}', function($id=''){
+    // Da inserire nel controller
+    if($id !== null){
+        return config('db_factory')[$id];
+    }
+});
